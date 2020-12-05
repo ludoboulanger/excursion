@@ -16,7 +16,7 @@ header h1 {
     font-size: 50px;
 }
 
-header p {
+.link {
     color: aquamarine;
     text-decoration: underline;
     cursor: pointer;
@@ -32,4 +32,9 @@ header p {
 .secondary-text {
     font-size: 21px;
     color: gray;
+}
+
+.footer {
+    color: gray;
+    text-align: right;
 }
