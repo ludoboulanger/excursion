@@ -1,11 +1,17 @@
+:root {
+    --text: Verdana;
+}
 body {
     text-align: center;
     background-color: black;
 }
 
+h1, p {
+    font-family: var(--text);
+}
+
 header h1 {
     color: white;
-    font-family: Verdana;
     font-weight: normal;
     font-size: 50px;
 }
@@ -15,4 +21,15 @@ header p {
     text-decoration: underline;
     cursor: pointer;
     font-size: 24px;
+}
+
+.primary-text {
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+.secondary-text {
+    font-size: 21px;
+    color: gray;
 }
